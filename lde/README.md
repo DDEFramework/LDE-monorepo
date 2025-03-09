@@ -14,7 +14,7 @@ This folder contains the configuration files and scripts necessary for setting u
 2. **Python Management Script**
    - [`manage_k3d_cluster.py`](manage_k3d_cluster.py): A Python-based script to streamline the setup, maintenance, and teardown of the cluster.  
      Features:
-      - **Start the cluster**: Create and launch the k3d cluster using the `k3d_cluster_config.yml` file.
+      - **Start the cluster**: Create and launch the k3d cluster using the `k3d_default.yml` file.
       - **Stop the cluster**: Stop the running k3d cluster.
       - **Delete the cluster**: Delete the k3d cluster.
       - **List clusters**: List all existing k3d clusters.
@@ -42,7 +42,7 @@ This command will display the names and details of all k3d clusters currently av
 
 ### Setting Up the Cluster
 
-1. Review and, if necessary, modify the cluster configuration in `k3d_cluster_config.yml`:
+1. Review and, if necessary, modify the cluster configuration in `k3d_default.yml`:
    - Adjust the number of server or agent nodes.
    - Customize node ports and volume definitions.
    - Extend runtime options as required.
